@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <nav>
+        <label for="menu-toggle" class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <ul class="nav-menu">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="aboutUs.html">Om oss</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="eventName">Företags Namn:</label>
+                <input type="text" name="eventName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="eventName">Organisationsnummer:</label>
+                <input type="text" name="eventName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="eventName">E-mail:</label>
+                <input type="text" name="eventName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="eventName">Tel:</label>
+                <input type="text" name="eventName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Antal anställda:</label>
+                <select name="category" required>
+                    <option value="total">0</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="two">3</option>
+                    <option value="two">4</option>
+                    <option value="two">5</option>
+                    <option value="two">6+</option>
+                    </select>
+                </div>
+            <div class="form-group">
+                <label for="description">Omsättning & Verifikationer per månad:</label>
+                <textarea name="description" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="agenda">Ditt Önskemål:</label>
+                <textarea id="agenda" name="agenda" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="eventDate">Önskad datum för kontakt</label>
+                <input type="date" name="eventDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Hur vill du bli kontaktad ?</label>
+                <select name="category" required>
+                    <option value="Kontakt">Frivilligt</option>
+                    <option value="utbi">E-Mail</option>
+                    <option value="work">Tel</option>
+                
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Skicka">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
