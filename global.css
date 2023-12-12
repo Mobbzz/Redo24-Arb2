@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(68, 67, 48, 0.699)), url(global-image.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(68, 67, 48, 0.699)), url(Event-image/global-image.jpg);
     background-size: cover;
     padding: 20px;
     background-attachment: fixed;
